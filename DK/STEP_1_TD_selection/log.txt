@@ -1,0 +1,78 @@
+
+133590 variables, all binary
+133591 constraints, all linear; 400040 nonzeros
+	366 equality constraints
+	133225 inequality constraints
+1 linear objective; 132860 nonzeros.
+
+CPLEX 12.10.0.0: mipdisplay 5
+mipinterval 1000
+mipgap 0.01
+Reduced MIP has 133591 rows, 133590 columns, and 400040 nonzeros.
+Reduced MIP has 133590 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Found incumbent of value 0.002797 after 2.73 sec. (3200.50 ticks)
+Probing time = 1.34 sec. (39.35 ticks)
+Detecting symmetries...
+Reduced MIP has 133591 rows, 133590 columns, and 400040 nonzeros.
+Reduced MIP has 133590 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Probing time = 1.11 sec. (39.25 ticks)
+Clique table members: 133590.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Parallel mode: deterministic, using up to 2 threads for parallel tasks at root LP.
+Root relaxation solution time = 37.53 sec. (7097.68 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                            0.0028        0.0000           100.00%
+Found incumbent of value 0.002797 after 44.80 sec. (12167.19 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                            0.0005        0.0000           100.00%
+Found incumbent of value 0.000517 after 44.80 sec. (12168.72 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                            0.0004        0.0000           100.00%
+Found incumbent of value 0.000367 after 44.80 sec. (12169.23 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                            0.0004        0.0000           100.00%
+Found incumbent of value 0.000366 after 44.80 sec. (12169.73 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0        0.0002   578        0.0004        0.0002     2011   32.72%
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                            0.0003        0.0002             1.79%
+Found incumbent of value 0.000251 after 51.51 sec. (17665.50 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                            0.0002        0.0002             0.56%
+Found incumbent of value 0.000248 after 52.38 sec. (18809.23 ticks)
+
+Root node processing (before b&c):
+  Real time             =   52.42 sec. (18814.98 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =   52.42 sec. (18814.98 ticks)
+CPLEX 12.10.0.0: optimal integer solution within mipgap or absmipgap; objective 0.0002479241719
+2011 MIP simplex iterations
+0 branch-and-bound nodes
+absmipgap = 1.38359e-06, relmipgap = 0.0055807

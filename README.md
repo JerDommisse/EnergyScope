@@ -1,23 +1,29 @@
+# Context #
+This study has been performed in the frame of a master thesis [4] (2020) at the UCLouvain by Jean-Louis Tychon and Jeroen Dommisse. This thesis has been supervised by Gauthier Limpens and Hervé Jeanmart and can be found in the Documentation folder.
 # Acknowledging authorship #
 In the academic spirit of collaboration, the source code should be appropriately acknowledged in the resulting scientific disseminations.  
 You may cite it as follows: 
 - [1], for general reference to the EnergyScope project and the EnergyScope modeling framework  	
 - [2], for reference to the origins of the EnergyScope project or to the first online version of the calculator energyscope.ch 	
-- [3], for reference to the energyscope MILP modeling framework 	
-- [1], for reference to the current code 	
+- [3], for reference to the energyscope MILP modeling framework 
+- [4], for reference to the generalised EnergyScope project encompassing European Countries
 
-You are welcome to report any bugs related to the code to the following:    
- moret.stefano@gmail.com or gauthierLimpens@gmail.com  
+
+You are welcome to report any bugs related to the model to the following:    
+moret.stefano@gmail.com or gauthierLimpens@gmail.com  
  
+If the bugs are related to this version [4] :
+jealouistychon@gmail.com or dommisse.jeroen@gmail.com
+
 # Content #
-This folder contains the second release (v2, hourly LP) of the EnergyScope model.  
-More recent releases are available @ the EnergyScope project repository: https://github.com/energyscope/EnergyScope   
-This version of the model corresponds to the one in [1].  
-The data used in this version of the model are fully documented in [1], Supplementary Material. The latest version of the Supplementary Material is available in the Documentation folder.
+The v2 EnergyScope model (EnergyScopeTD [1]) has been changed and generalised [4] to encompass all the characteristics of the different EU countries.
+This folder contains the modified version of EnergyScopeTD model [4] with the data for 26 countries : 25 out of the 27 EU countries (Malta and Cyprus are left out) and the United Kingdom. 
+More recent releases of the model are available @ the EnergyScope project repository: https://github.com/energyscope/EnergyScope     
+The data used in this version of the model and the methodology are fully documented in the study found in the Documentation folder.
 
 
 # License:  # 
-Copyright (C) <2018-2019> <Ecole Polytechnique Fédérale de Lausanne (EPFL), Switzerland and Université catholique de Louvain (UCLouvain), Belgium>
+Copyright (C) <2018-2020> <Ecole Polytechnique Fédérale de Lausanne (EPFL), Switzerland and Université catholique de Louvain (UCLouvain), Belgium>
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
 
@@ -91,7 +97,7 @@ The model was originally developed in AMPL. Compatible solvers are CPLEX, Gurobi
 
 # Previous versions and Authors: #  
 - first release (v1, monthly MILP) of the EnergyScope (ES) model: https://github.com/energyscope/EnergyScope/tree/v1.0 .	
-
+- second release (v2, hourly MILP) of the EnergyScope (ES) model: https://github.com/energyscope/EnergyScope/tree/Limpens_Role_2019
 Authors: 
 - Stefano Moret, Ecole Polytechnique Fédérale de Lausanne (Switzerland), <moret.stefano@gmail.com> 
 - Gauthier Limpens, Université catholique de Louvain (Belgium), <gauthierLimpens@gmail.com>  
@@ -102,3 +108,5 @@ Authors:
 [2] V. Codina Gironès, S. Moret, F. Maréchal, D. Favrat (2015). Strategic energy planning for large-scale energy systems: A modelling framework to aid decision-making. Energy, 90(PA1), 173–186. https://doi.org/10.1016/j.energy.2015.06.008 	
 	
 [3] S. Moret, M. Bierlaire, F. Maréchal (2016). Strategic Energy Planning under Uncertainty: a Mixed-Integer Linear Programming Modeling Framework for Large-Scale Energy Systems. https://doi.org/10.1016/B978-0-444-63428-3.50321-0 	
+
+[4] J-L. Tychon and J. Dommisse (2020). Modelling of Low Carbon EnergySystems for 26 European Countrieswith EnergyScopeTD: Can European countries reach carbon neutrality independently?

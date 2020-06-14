@@ -1,0 +1,34 @@
+source,target,realValue,layerID,layerColor,layerUnit
+Diesel,Mob public,1.77,Diesel,#D3D3D3,TWh
+Diesel,Freight,3.56,Diesel,#D3D3D3,TWh
+Wind,Elec,161.74,Wind,#27AE34,TWh
+Waste,Boilers,15.31,Waste,#808000,TWh
+Wood,Biofuels,45.75,Wood,#CD853F,TWh
+Wood,Boilers,38.54,Wood,#CD853F,TWh
+Wet biomass,Biomethanation,4.87,Wood,#CD853F,TWh
+Biomethanation,Gas,4.55,NG,#FFD700,TWh
+Elec,Mob public,10.15,Electricity,#00BFFF,TWh
+Elec,Freight,1.90,Electricity,#00BFFF,TWh
+Elec,Exp & Loss,14.02,Electricity,#00BFFF,TWh
+Elec,Elec demand,111.40,Electricity,#00BFFF,TWh
+Elec,HPs,32.69,Electricity,#00BFFF,TWh
+Elec,Electrolysis,47.05,Electricity,#00BFFF,TWh
+Electrolysis,H2 sto.,5.18,H2,#FF00FF,TWh
+H2 sto.,H2,4.48,H2,#FF00FF,TWh
+Electrolysis,H2,35.51,H2,#FF00FF,TWh
+Elec,Heat HT,12.39,Electricity,#00BFFF,TWh
+H2,Mob priv,17.40,H2,#FF00FF,TWh
+H2,Freight,21.98,H2,#FF00FF,TWh
+HPs,Heat LT Dec,64.61,Heat LT,#FA8072,TWh
+HPs,DHN,42.39,Heat LT,#FA8072,TWh
+HPs,Dec. Sto,1.67,Heat LT,#FA8072,TWh
+Biofuels,Elec,0.73,Electricity,#00BFFF,TWh
+Biofuels,Boilers,0.00,Oil,#8B008B,TWh
+Boilers,Heat HT,45.87,Heat HT,#DC143C,TWh
+Dec. Sto,Heat LT Dec,1.58,Heat LT,#FA8072,TWh
+DHN,Heat LT DHN,30.15,Heat LT,#FA8072,TWh
+DHN,Loss DHN,2.97,Heat LT,#FA8072,TWh
+DHN,DHN Sto,9.27,Heat LT,#FA8072,TWh
+DHN Sto,Heat LT DHN,8.72,Heat LT,#FA8072,TWh
+Gas,Non-Energy,4.55,NG,#FFD700,TWh
+Oil,Non-Energy,25.13,Oil,#8B008B,TWh

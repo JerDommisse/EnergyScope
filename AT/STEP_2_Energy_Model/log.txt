@@ -1,0 +1,217 @@
+output/
+#				incremental	total
+#phase		seconds		memory		memory
+#execute	0.109375	2538264		2538264
+### ESTD_main.run:62(2707)   option ...
+#execute	0		0		2538264
+### ESTD_main.run:64(2743)   solve ...
+#compile	0		62824		2601088
+##genmod times:
+##seq      seconds    cum. sec.    mem. inc.  name
+## 88            0            0            0  derstage
+## 92            0            0            0  sstatus
+## 106            0            0            0  PERIODS
+## 107            0            0            0  HOURS
+## 108     0.015625     0.015625            0  TYPICAL_DAYS
+## 109     0.015625      0.03125       426208  T_H_TD
+## 110            0      0.03125            0  SECTORS
+## 111            0      0.03125            0  END_USES_INPUT
+## 112            0      0.03125            0  END_USES_CATEGORIES
+## 113            0      0.03125            0  END_USES_TYPES_OF_CATEGORY
+## 115            0      0.03125            0  BIOFUELS
+## 116            0      0.03125            0  EXPORT
+## 117            0      0.03125            0  END_USES_TYPES
+## 118            0      0.03125            0  TECHNOLOGIES_OF_END_USES_TYPE
+## 119            0      0.03125            0  STORAGE_TECH
+## 120            0      0.03125            0  STORAGE_OF_END_USES_TYPES
+## 121            0      0.03125            0  INFRASTRUCTURE
+## 122            0      0.03125            0  LAYERS
+## 123            0      0.03125            0  TECHNOLOGIES
+## 124            0      0.03125         3616  TECHNOLOGIES_OF_END_USES_CATEGORY
+## 125            0      0.03125            0  RE_RESOURCES
+## 126            0      0.03125            0  V2G
+## 128            0      0.03125            0  EVs_BATT_OF_V2G
+## 129            0      0.03125            0  STORAGE_DAILY
+## 130            0      0.03125            0  TS_OF_DEC_TECH
+## 131     0.734375     0.765625      1907896  TYPICAL_DAY_OF_PERIOD
+## 132     0.234375            1      1874992  HOUR_OF_PERIOD
+## 135            0            1            0  electricity_time_series
+## 136            0            1            0  heating_time_series
+## 137            0            1            0  cooling_time_series
+## 138            0            1            0  mob_pass_time_series
+## 139            0            1            0  mob_freight_time_series
+## 140            0            1            0  c_p_t
+## 141            0            1            0  end_uses_demand_year
+## 142            0            1            0  end_uses_input
+## 143            0            1            0  i_rate
+## 144            0            1            0  re_share_primary
+## 145            0            1            0  gwp_limit
+## 146            0            1            0  share_mobility_public_min
+## 147            0            1            0  share_mobility_public_max
+## 148            0            1            0  share_freight_train_min
+## 149            0            1            0  share_freight_train_max
+## 150            0            1            0  share_freight_boat_min
+## 151            0            1            0  share_freight_boat_max
+## 152            0            1            0  share_freight_road_min
+## 153            0            1            0  share_freight_road_max
+## 154            0            1            0  share_heat_dhn_min
+## 155            0            1            0  share_heat_dhn_max
+## 156            0            1            0  t_op
+## 157            0            1            0  f_max
+## 158            0            1            0  f_min
+## 159            0            1            0  fmax_perc
+## 160            0            1            0  fmin_perc
+## 161            0            1            0  avail
+## 162            0            1            0  c_op
+## 163            0            1            0  n_car_max
+## 164            0            1            0  peak_sh_factor
+## 165            0            1         3088  layers_in_out
+## 166            0            1            0  c_inv
+## 167            0            1            0  c_maint
+## 168            0            1            0  lifetime
+## 169            0            1            0  tau
+## 170            0            1            0  gwp_constr
+## 172            0            1            0  c_p
+## 173            0            1            0  storage_eff_in
+## 174            0            1            0  storage_eff_out
+## 175            0            1            0  storage_losses
+## 176            0            1            0  storage_charge_time
+## 177            0            1            0  storage_discharge_time
+## 178            0            1            0  storage_availability
+## 179            0            1            0  loss_network
+## 180            0            1            0  Batt_per_Car
+## 181            0            1            0  c_grid_extra
+## 182            0            1            0  import_capacity
+## 183            0            1            0  solar_area
+## 184            0            1        47704  total_time
+## 185            0            1            0  Share_Mobility_Public
+## 187            0            1            0  Share_Freight_Train
+## 189            0            1            0  Share_Freight_Road
+## 191            0            1            0  Share_Freight_Boat
+## 193            0            1            0  Share_Heat_Dhn
+## 195            0            1          520  F
+## 197            0            1      4943864  F_t
+## 199       0.0625       1.0625     24431864  Storage_in
+## 201     0.015625      1.07812      4194320  Storage_out
+## 203            0      1.07812            0  Power_nuclear
+## 205            0      1.07812            0  Shares_Mobility_Passenger
+## 207            0      1.07812            0  Shares_Mobility_Freight
+## 209            0      1.07812            0  Shares_LowT_Dec
+## 211            0      1.07812            0  F_Solar
+## 213            0      1.07812       131232  F_t_Solar
+## 215            0      1.07812       557640  End_Uses
+## 217            0      1.07812            0  TotalCost
+## 219            0      1.07812            0  C_inv
+## 221            0      1.07812         1032  C_maint
+## 223            0      1.07812            0  C_op
+## 225            0      1.07812            0  TotalGWP
+## 227            0      1.07812         2064  GWP_constr
+## 229            0      1.07812            0  GWP_op
+## 231            0      1.07812       167136  Network_losses
+## 233     0.046875        1.125     15901448  Storage_level
+## 235            0        1.125       307200  end_uses_t
+## 237            0        1.125            0  totalcost_cal
+## 239            0        1.125            0  investment_cost_calc
+## 241            0        1.125         3096  main_cost_calc
+## 243     0.140625      1.26562      2726400  op_cost_calc
+## 245            0      1.26562            0  totalGWP_calc
+## 247            0      1.26562        41496  gwp_constr_calc
+## 249     0.109375        1.375      1459200  gwp_op_calc
+## 251            0        1.375         3096  size_limit
+## 253      0.03125      1.40625      7911688  capacity_factor_t
+## 255     0.421875      1.82812     23977608  capacity_factor
+## 257     0.078125      1.90625      5452800  resource_availability
+## 259      0.40625       2.3125     13403664  layer_balance
+## 261       5.0625        7.375     46314360  storage_level
+## 263     0.171875      7.54688     11819104  impose_daily_storage
+## 265     0.078125        7.625     14293544  limit_energy_stored_to_maximum
+## 267      0.15625      7.78125     15005232  storage_layer_in
+## 269      0.15625       7.9375     11859480  storage_layer_out
+## 271     0.203125      8.14062     23533080  limit_energy_to_power_ratio
+## 273     0.109375         8.25       384000  network_losses
+## 275            0         8.25            0  extra_grid
+## 277            0         8.25            0  extra_dhn
+## 279            0         8.25        38400  constantNuc
+## 281            0         8.25       395504  operating_strategy_mob_passenger
+## 283            0         8.25       175224  operating_strategy_mobility_freight
+## 285            0         8.25            0  Freight_shares
+## 287            0         8.25       262704  thermal_solar_capacity_factor
+## 289            0         8.25            0  thermal_solar_total_capacity
+## 291       0.0625       8.3125      4919576  decentralised_heating_balance
+## 293            0       8.3125            0  EV_storage_size
+## 295            0       8.3125        71216  EV_storage_for_V2G_demand
+## 297            0       8.3125       268328  peak_lowT_dec
+## 299            0       8.3125            0  Max_Heat_Demand
+## 301            0       8.3125            0  max_dhn_heat_demand
+## 303            0       8.3125            0  peak_lowT_dhn
+## 305            0       8.3125            0  Minimum_GWP_reduction
+## 307     0.265625      8.57812      1881600  Minimum_RE_share
+## 309      5.04688       13.625    148064016  f_max_perc
+## 311      5.60938      19.2344     14711328  f_min_perc
+## 313            0      19.2344            0  extra_efficiency
+## 315            0      19.2344        11304  max_elec_import
+## 317            0      19.2344            0  solar_area_limited250km2
+## 319            0      19.2344            0  storage_level_hydro_dams
+## 321            0      19.2344        50712  impose_hydro_dams_inflow
+## 323            0      19.2344        12312  limit_hydro_dams_output
+## 325            0      19.2344            0  obj
+#genmod		19.2344		403954472	406555560
+#merge		0.375		16777224	423332784
+#collect	0.6875		171966552	595299336
+
+Presolve eliminates 749211 constraints and 495088 variables.
+Adjusted problem:
+268332 variables, all linear
+496807 constraints, all linear; 1548249 nonzeros
+	352839 equality constraints
+	143968 inequality constraints
+1 linear objective; 1 nonzero.
+
+#presolve	5.09375		128002184	723301520
+#output		2.09375		0		723301520
+#Total		27.5938
+CPLEX 12.9.0.0: mipdisplay 5
+mipinterval 1000
+mipgap 0.01
+timelimit 64800
+CPLEX 12.9.0.0: optimal solution; objective 15420.29805
+120719 simplex iterations (373 in phase I)
+75 barrier iterations
+
+"option abs_boundtol 2.2737367544323206e-13;"
+or "option rel_boundtol 1.7031735988257084e-16;"
+will change deduced dual values.
+
+#execute	5.82812		131583664	854885184
+### ESTD_main.run:66(2755)   display ...
+#compile	0		0		854885184
+##genmod times:
+##seq      seconds    cum. sec.    mem. inc.  name
+##  7            0            0            0  solve_result_num
+#genmod		0		0		854885184
+solve_result_num = 0
+
+#execute	0		4104		854889288
+### ESTD_main.run:67(2784)   display ...
+#compile	0		0		854889288
+##genmod times:
+##seq      seconds    cum. sec.    mem. inc.  name
+## 28            0            0            0  _solve_elapsed_time
+#genmod		0		0		854889288
+_solve_elapsed_time = 6508.52
+
+#execute	0		0		854889288
+### ESTD_main.run:71(2868)   option ...
+### ESTD_main.run:72(2899)   option ...
+--------------SAVING COSTS -----------
+--------------SAVING RESOURCES -----------
+--------------SAVING GWP -----------
+--------------SAVING Losses -----------
+--------------SAVING ASSETS -----------
+--------------SAVING STORAGE -----------
+--------------SAVING LAYERS -----------
+--------- SAVING SANKEY --------
+
+ESTD_main.run, line 832 (offset 75037):
+	extra }
+context:   >>> } <<< 	

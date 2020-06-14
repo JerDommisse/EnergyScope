@@ -1,0 +1,52 @@
+source,target,realValue,layerID,layerColor,layerUnit
+Diesel,Mob public,0.13,Diesel,#D3D3D3,TWh
+Diesel,Freight,0.43,Diesel,#D3D3D3,TWh
+Gas,H2 prod,0.16,NG,#FFD700,TWh
+H2 prod,H2,0.12,H2,#FF00FF,TWh
+Gas,Elec,3.97,NG,#FFD700,TWh
+Wind,Elec,7.07,Wind,#27AE34,TWh
+Hydro River,Elec,0.02,Hydro River,#0000FF,TWh
+Solar,Elec,7.27,Solar,#FFFF00,TWh
+Waste,CHP,1.48,Waste,#808000,TWh
+Waste,Boilers,0.30,Waste,#808000,TWh
+Wood,Biofuels,1.71,Wood,#CD853F,TWh
+Wood,Gasifi.,0.63,Wood,#CD853F,TWh
+Gasifi.,Gas,0.47,NG,#FFD700,TWh
+Gasifi.,DHN,0.06,Heat LT,#FA8072,TWh
+Gasifi.,Elec,0.02,Electricity,#00BFFF,TWh
+Wet biomass,Biomethanation,3.89,Wood,#CD853F,TWh
+Biomethanation,Gas,3.63,NG,#FFD700,TWh
+Elec,Mob public,0.73,Electricity,#00BFFF,TWh
+Elec,Freight,0.09,Electricity,#00BFFF,TWh
+Elec,Exp & Loss,1.21,Electricity,#00BFFF,TWh
+Elec,Curt.,0.06,Electricity,#00BFFF,TWh
+Elec,Elec demand,7.78,Electricity,#00BFFF,TWh
+Elec,Storage,1.25,Electricity,#00BFFF,TWh
+Storage,Elec demand,0.90,Electricity,#00BFFF,TWh
+Elec,HPs,3.78,Electricity,#00BFFF,TWh
+Elec,Electrolysis,2.45,Electricity,#00BFFF,TWh
+Electrolysis,H2 sto.,0.88,H2,#FF00FF,TWh
+H2 sto.,H2,0.76,H2,#FF00FF,TWh
+Electrolysis,H2,1.33,H2,#FF00FF,TWh
+Elec,Heat HT,0.06,Electricity,#00BFFF,TWh
+Elec,Gas,0.00,Electricity,#00BFFF,TWh
+H2,Mob priv,1.26,H2,#FF00FF,TWh
+H2,Freight,0.76,H2,#FF00FF,TWh
+H2,Gas,0.08,H2,#FF00FF,TWh
+Gas,SNG sto.,2.05,NG,#FFD700,TWh
+SNG sto.,Gas,2.01,NG,#FFD700,TWh
+CHP,Elec,0.30,Electricity,#00BFFF,TWh
+CHP,DHN,0.43,Heat LT,#FA8072,TWh
+CHP,Heat HT,0.23,Heat HT,#DC143C,TWh
+HPs,Heat LT Dec,5.83,Heat LT,#FA8072,TWh
+HPs,DHN,4.60,Heat LT,#FA8072,TWh
+HPs,Dec. Sto,2.08,Heat LT,#FA8072,TWh
+Biofuels,Elec,0.03,Electricity,#00BFFF,TWh
+Biofuels,Boilers,0.00,Oil,#8B008B,TWh
+Boilers,Heat HT,0.25,Heat HT,#DC143C,TWh
+Dec. Sto,Heat LT Dec,1.92,Heat LT,#FA8072,TWh
+DHN,Heat LT DHN,2.27,Heat LT,#FA8072,TWh
+DHN,Loss DHN,0.36,Heat LT,#FA8072,TWh
+DHN,DHN Sto,2.48,Heat LT,#FA8072,TWh
+DHN Sto,Heat LT DHN,2.29,Heat LT,#FA8072,TWh
+Oil,Non-Energy,0.58,Oil,#8B008B,TWh

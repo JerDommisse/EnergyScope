@@ -1,0 +1,43 @@
+source,target,realValue,layerID,layerColor,layerUnit
+Diesel,Mob public,1.59,Diesel,#D3D3D3,TWh
+Diesel,Freight,9.89,Diesel,#D3D3D3,TWh
+Gas,H2 prod,27.12,NG,#FFD700,TWh
+H2 prod,H2,19.88,H2,#FF00FF,TWh
+Gas,Elec,38.92,NG,#FFD700,TWh
+Wind,Elec,430.64,Wind,#27AE34,TWh
+Hydro River,Elec,1.11,Hydro River,#0000FF,TWh
+Solar,Elec,0.02,Solar,#FFFF00,TWh
+Waste,Boilers,51.24,Waste,#808000,TWh
+Wood,Biofuels,59.47,Wood,#CD853F,TWh
+Wood,Boilers,5.70,Wood,#CD853F,TWh
+Wet biomass,Biomethanation,138.37,Wood,#CD853F,TWh
+Biomethanation,Gas,129.24,NG,#FFD700,TWh
+Elec,Mob priv,37.54,Electricity,#00BFFF,TWh
+Elec,Mob public,9.12,Electricity,#00BFFF,TWh
+Elec,Freight,5.26,Electricity,#00BFFF,TWh
+Elec,Exp & Loss,32.76,Electricity,#00BFFF,TWh
+Elec,Elec demand,161.58,Electricity,#00BFFF,TWh
+Elec,Storage,10.49,Electricity,#00BFFF,TWh
+Storage,Elec demand,9.09,Electricity,#00BFFF,TWh
+Elec,HPs,107.91,Electricity,#00BFFF,TWh
+Elec,Electrolysis,49.10,Electricity,#00BFFF,TWh
+Electrolysis,H2 sto.,5.29,H2,#FF00FF,TWh
+H2 sto.,H2,4.57,H2,#FF00FF,TWh
+Electrolysis,H2,37.16,H2,#FF00FF,TWh
+Elec,Heat HT,35.16,Electricity,#00BFFF,TWh
+H2,Freight,60.98,H2,#FF00FF,TWh
+Gas,SNG sto.,21.80,NG,#FFD700,TWh
+SNG sto.,Gas,21.36,NG,#FFD700,TWh
+HPs,Heat LT Dec,194.77,Heat LT,#FA8072,TWh
+HPs,DHN,142.20,Heat LT,#FA8072,TWh
+HPs,Dec. Sto,22.35,Heat LT,#FA8072,TWh
+Biofuels,Elec,0.94,Electricity,#00BFFF,TWh
+Biofuels,Boilers,0.00,Oil,#8B008B,TWh
+Boilers,Heat HT,46.94,Heat HT,#DC143C,TWh
+Dec. Sto,Heat LT Dec,21.06,Heat LT,#FA8072,TWh
+DHN,Heat LT DHN,92.71,Heat LT,#FA8072,TWh
+DHN,Loss DHN,9.95,Heat LT,#FA8072,TWh
+DHN,DHN Sto,39.53,Heat LT,#FA8072,TWh
+DHN Sto,Heat LT DHN,34.05,Heat LT,#FA8072,TWh
+Gas,Non-Energy,62.87,NG,#FFD700,TWh
+Oil,Non-Energy,28.12,Oil,#8B008B,TWh
